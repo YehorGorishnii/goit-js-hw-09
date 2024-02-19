@@ -1,0 +1,132 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./vite-promo.css');
+@import url('./header.css');
+import "simplelightbox/dist/simple-lightbox.min.css";
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.gallery {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1440px;
+  height: 696px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  flex-grow: 1;
+}
+
+/* ____________________________________________________________________________________________________________________________________________ */
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.form-name {
+  color: #2E2F42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+
+  min-width: 95px;
+  padding-bottom: 8px;
+}
+
+
+.form-btn {
+  border-radius: 8px;
+  background-color: #4e75ff;
+
+  border-color: transparent;
+
+  width: 95px;
+  height: 40px;
+
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #6C8CFF;
+  border-color: transparent;
+}
+
+.form-email {
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.form-email:hover,
+.form-email:focus {
+  border: 1px solid #000;
+}
+
+.form-massege {
+  display: flex;
+  width:360px;
+  max-width: 361px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.form-massege:hover,
+.form-massege:focus {
+  border: 1px solid #000;
+}
